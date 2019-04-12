@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>DISEÑO DE SITIOS WEB</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="stylesheet" href="css/Slider.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/font.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/lectura2.css">
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<!-- Menu Desplegable-->
+			<center>
+				<nav class="navegacion">
+					<ul>
+					  	<li><a href="index.html">Inicio</a></li>
+
+					    <li class="dropdown">
+						    <a href="javascript:void(0)" class="dropbtn">Lecturas</a>
+						    <div class="dropdown-content">
+						      <a href="Lectura1.html">Lectura 1</a>
+						      <a href="Lectura2.html">Lectura 2</a>
+						      <a href="Lectura3.html">Lectura 3</a>
+						      <a href="Lectura4.html">Lectura 4</a>
+						      <a href="Lectura5.html">Lectura 5</a>
+						    </div>
+					  	</li>
+
+					  	<li class="dropdown">
+					    	<a href="javascript:void(0)" class="dropbtn">Multimedia</a>
+						    <div class="dropdown-content">
+						      <a href="Lectura1.html">Multimedia 1</a>
+						      <a href="Lectura2.html">Multimedia 2</a>
+							</div>
+					  	</li>
+
+					  <li class="dropdown">
+							<a href="javascript:void(0)" class="dropbtn">Actividades</a>
+							<div class="dropdown-content">
+								<a href="Actividad1.html">Actividad 1</a>
+								<a href="Actividad1.html">Actividad 2</a>
+								<a href="Actividad1.html">Actividad 3</a>
+							</div>
+						</li>
+
+						<li><a href="Autores.html">Autores</a></li>
+					</ul>
+					
+				</nav>
+			</center>
+		</header>
+		
+		
+		<!--Slider-->
+		<center>
+			<div class="slideshow">
+				<ul class="slider">
+					<li>
+						<img src="imagenes/1.jpg" alt="">
+						<!--<section class="caption">
+							<h1>Diseño Web</h1>
+						</section>-->
+					</li>
+					<li>
+						<img src="imagenes/2.jpg" alt="">
+						<!--<section class="caption">
+							<h1>Diseño Web</h1>
+						</section>-->
+					</li>
+					<li>
+						<img src="imagenes/3.jpg" alt="">
+						<!--<section class="caption">
+							<h1>Diseño Web</h1>	
+						</section>-->
+					</li>
+					<li>
+						<img src="imagenes/4.jpg" alt="">
+						<!--<section class="caption">
+							<h1>Diseño Web</h1>
+						</section>-->
+					</li>
+				</ul>
+			
+				<div class="left">
+					<span class="fa fa-chevron-left"></span>
+				</div>
+
+				<div class="right">
+					<span class="fa fa-chevron-right"></span>
+				</div>
+			</div>
+		</center>
+		<div>
+			<aside>
+				<div id="SeccionUbicacion">
+		        	<div id="SubSeccionUbicacion">contador de visitas</div>
+
+		      		<script>yu=function(id){return document.getElementById(id);}
+				          if(localStorage){
+				          if(localStorage['visitas']==undefined){
+				          localStorage['visitas']=0;
+				          }var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
+				          var num=localStorage['visitas'];
+				          var mensaje=num + " visitas";
+				          yu('SubSeccionUbicacion').innerHTML=mensaje;}
+			        </script>
+		        </div>       
+		      	<div id="SeccionTwiter">       
+		        	<figure>
+		        		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		        		</script>		         
+		            	<a class="twitter-timeline" data-width="210" data-height="340" href="https://twitter.com/UniversidadUNAD">Tweets by UniversidadUNAD
+		            	</a> 
+		               <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>     
+		            </figure>
+		        </div>
+		        <!-- REDES SOCIALES PEGADA A LA PARED-->
+		    	<div class="UbicacionSocial">
+		    		<div class="social-bar">
+			        	<a href="https://www.facebook.com/UniversidadUNAD/" class="icon icon-facebook" target="_blank"></a>
+			        	<a href="https://twitter.com/universidadunad" class="icon icon-twitter" target="_blank"></a>
+			        	<a href="https://www.youtube.com/?gl=CO&hl=es-419" class="icon icon-youtube" target="_blank"></a>
+			        	<a href="https://www.instagram.com/universidadunad/?hl=es-la" class="icon icon-instagram" target="_blank"></a>
+		    		</div>
+		    	</div>
+			</aside>
+			 <div id="contenedor-titulo">
+			<div class="titulo">
+				<h1>DISEÑO DE SITIOS WEB</h1>
+			</div>				
+		</div>
+		<div class="cuerpo">
+			<P>
+				El diseño web es una actividad que consiste en la planificación, diseño, implementacion y mantenimiento de sitios web. No es simplemente la implementacion del diseño convenconal ya que se abarcan diferentes aspectos como el diseño grafico web, diseño de interfaz y experiencia de usuario, como la navegabilidad, interactiva, usabilidad, arquitectura de la informacion, interaccion de medios, entre los que podemos mencionar audio, texto, imagen, enlaces, video y la optimizacion de motores de busqueda.
+				<br>
+				<br>
+				
+			</P>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/dRoCCmkR0-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+		</div>
+		<footer>
+			<div class="pie">
+				Diseñado por estudiantes de Ingenieria de Sistemas de la Universidad Nacional Abierta y a Distancia UNAD
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script  src="js/index.js"></script>
+	</body>
+</html>
+

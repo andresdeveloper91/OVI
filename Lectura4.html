@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>DISEÑO DE SITIOS WEB</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/lectura1.css">
+	</head>
+	<body>
+		<header>
+			<!-- Menu Desplegable-->
+			<center>
+				<nav class="navegacion">
+					<ul>
+					  	<li><a href="index.html">Inicio</a></li>
+
+					    <li class="dropdown">
+						    <a href="javascript:void(0)" class="dropbtn">Lecturas</a>
+						    <div class="dropdown-content">
+						      <a href="Lectura1.html">Lectura 1</a>
+						      <a href="Lectura2.html">Lectura 2</a>
+						      <a href="Lectura3.html">Lectura 3</a>
+						      <a href="Lectura4.html">Lectura 4</a>
+						      <a href="Lectura5.html">Lectura 5</a>
+						    </div>
+					  	</li>
+
+					  	<li class="dropdown">
+					    	<a href="javascript:void(0)" class="dropbtn">multimedia</a>
+						    <div class="dropdown-content">
+						      <a href="Lectura1.html">Multimedia 1</a>
+						      <a href="Lectura2.html">Multimedia 2</a>
+							</div>
+					  	</li>
+
+					  <li class="dropdown">
+							<a href="javascript:void(0)" class="dropbtn">Actividades</a>
+							<div class="dropdown-content">
+								<a href="Actividad1.html">Actividad 1</a>
+								<a href="Actividad1.html">Actividad 2</a>
+								<a href="Actividad1.html">Actividad 3</a>
+							</div>
+						</li>
+
+						<li><a href="Autores.html">Autores</a></li>
+					</ul>
+					
+				</nav>
+			</center>
+		</header>
+		
+		<div id="contenedor-titulo">
+			<div class="titulo">
+				<h1>HTML Y CSS</h1>
+			</div>				
+		</div>
+		<div class="cuerpo">
+			<h2>Como mezclar CSS y HTML. Acoplamiento CSS</h2>
+			<br>
+			<div class="estructura">
+				<img src="imagenes/html-css.jpg">
+			</div>	
+			<br>
+			<p>
+				Mezclar html y css es fácil si se conocen las normas.
+				<br>
+
+				Podemos hacerlo en línea con el html, en la cabecera del documento web y en una hoja externa.
+				<br>
+				<br>
+				Veamos los 3 casos posibles.
+				<br>
+				<br>
+				<h2>EN LINEA CON EL HTML</h2>
+				<br>
+				Para mezclar html y css en línea hacemos uso del atributo style=””.
+				<br>
+				<br>
+				En el interior del atributo style escribimos cada una de las instrucciones separadas de punto y coma ;.
+
+				Hay ocasiones en que no tienes más remedio que hacerlo así pero siempre que podáis… evitar este sistema. Siempre es mejor cualquiera de los dos mencionados a continuación.
+
+				Veamos un ejemplo.
+				<br>
+				<br>
+				<div class="estructura">
+					<img src="imagenes/css-en-linea.jpg">
+				</div>
+
+				<br>
+				<h2>EN EL HEAD</h2>
+				<br>
+
+				Otra posibilidad es escribir el html dentro del HEAD.
+				<br>
+				Hacemos uso de la etiqueta style.
+				<br>
+				Es un sistema bastante cómodo cuando se está aprendiendo.
+				<br>
+				Veamos la imagen adjunta.
+				<br>
+				<br>
+				<div class="estructura"><img src="imagenes/css-cabecera.jpg">
+				<br>
+				<h2>EN UNA HOJA EXTERNA DE EXTENSIÓN .CSS</h2>
+				<br>
+
+				Para desvincular al máximo html y css escribimos el siguiente html en la cabecera.
+				<br>
+				<br>
+				<div class="link">
+					<img src="imagenes/link.png">
+				</div>
+				<br>
+				Este sistema es el mejor de todos porqué permite una carga más eficiente del documento web.
+				<br>
+				En el ejemplo de la imagen estamos poniendo una hoja de nombre style.css dentro del directorio de nombre “css”.
+				<br>
+				<br>
+				<div class="estructura"><img src="imagenes/css-link.jpg">
+			</p>
+			<div class="referencia">
+				https://francescricart.com/como-mezclar-css-y-html-acoplamiento-css/
+			</div>		
+		</div>
+		
+		<footer>
+			<div class="pie">
+				Diseñado por estudiantes de Ingenieria de Sistemas de la Universidad Nacional Abierta y a Distancia UNAD
+			</div>
+		</footer>
+	</body>
+</html>

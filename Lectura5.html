@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>DISEÑO DE SITIOS WEB</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/lectura1.css">
+	</head>
+	<body>
+		<header>
+			<!-- Menu Desplegable-->
+			<center>
+				<nav class="navegacion">
+					<ul>
+					  	<li><a href="index.html">Inicio</a></li>
+
+					    <li class="dropdown">
+						    <a href="javascript:void(0)" class="dropbtn">Lecturas</a>
+						    <div class="dropdown-content">
+						      <a href="Lectura1.html">Lectura 1</a>
+						      <a href="Lectura2.html">Lectura 2</a>
+						      <a href="Lectura3.html">Lectura 3</a>
+						      <a href="Lectura4.html">Lectura 4</a>
+						      <a href="Lectura5.html">Lectura 5</a>
+						    </div>
+					  	</li>
+
+					  	<li class="dropdown">
+					    	<a href="javascript:void(0)" class="dropbtn">multimedia</a>
+						    <div class="dropdown-content">
+						      <a href="Lectura1.html">Multimedia 1</a>
+						      <a href="Lectura2.html">Multimedia 2</a>
+							</div>
+					  	</li>
+
+					  <li class="dropdown">
+							<a href="javascript:void(0)" class="dropbtn">Actividades</a>
+							<div class="dropdown-content">
+								<a href="Actividad1.html">Actividad 1</a>
+								<a href="Actividad1.html">Actividad 2</a>
+								<a href="Actividad1.html">Actividad 3</a>
+							</div>
+						</li>
+
+						<li><a href="Autores.html">Autores</a></li>
+					</ul>
+					
+				</nav>
+			</center>
+		</header>
+
+		<div id="contenedor-titulo">
+			<div class="titulo">
+				<h1>HTML, CSS Y JAVASCRIPT</h1>
+			</div>				
+		</div>
+		<div class="cuerpo">
+			<h2>¿Cómo integramos los lenguajes HTML, CSS, y JavaScript?</h2>
+			<br>
+			<div class="estructura">
+				<img src="imagenes/html-css-javascript.png">
+			</div>
+			<br>
+			<p>
+				A principio de los años noventa, el lenguaje HTML era el único idioma disponible en la web. Ha cambiado mucho desde entonces. A continuación vamos a distinguir los tres tipos de lenguaje que describimos en este post:
+				<br>
+				<br>
+				1. El lenguaje HTML (HyperText Markup Language) nos aporta la estructura básica de los sitios, mejorada y modificada por otras tecnologías como CSS y JavaScript que vemos a continuación. Es el lenguaje famoso por sus etiquetas conocido por todos los que se han inmerso en el desarrollo de páginas web.		
+				<br>
+				<br>
+				<div class="lenguajes">
+					<img src="imagenes/lenguajes_2.png">
+				</div>
+				<br>
+				2. Por otro lado, CSS u Hojas de Estilo en Cascada (Cascading Style Sheets) se utiliza para controlar la presentación, el formato, y el diseño de nuestra aplicación. Gracias a ella podemos dar forma al estilo que queremos que se muestre.
+				<br>
+				<br>
+				<div class="lenguajes">
+					<img src="imagenes/lenguajes_3.png">
+				</div>
+				<br>
+				3. JavaScript se utiliza para controlar el comportamiento de los diferentes elementos, esto es, aporta funcionalidad, dinámica, a nuestros elementos.
+				<br>
+				<br>
+				<div class="lenguajes">
+					<img src="imagenes/lenguajes_4.png">
+				</div>
+				Muy bien, ya tenemos claro los diferentes conceptos, pero cómo integro yo los tres tipos de lenguajes en mi nuevo visor. El HTML ya vemos que es el lenguaje de etiquetas, ¿pero cómo podemos integrar los estilos CSS en nuestra aplicación?
+				<br>
+				Pues existen tres formas, pero antes que nada tenemos que tener en cuenta que una regla CSS tiene dos partes fundamentales: un selector (en este ejemplo un elemento HTML “p” representa un párrafo, existen otros tipos de selectores como “id”, “clases”, etc.) y una o más declaraciones (en este caso “color” y “text-align” son las propiedades y “red” y “center” sus valores respectivos). Cada declaración acaba con un punto y coma:
+				<br>
+				<br>
+				<div class="link">
+					<img src="imagenes/lenguajes_5.png">
+				</div>
+				<br>
+				Sabiendo esto vamos a averiguar cómo integrar nuestra hoja de estilo CSS:
+				<br>
+				<br>
+				<h3>1. Hoja de estilos externa:</h3>
+				<br>
+				Una hoja de estilos externa es simplemente un conjunto de reglas CSS que están guardadas en un fichero de texto con extensión .css
+				<br>
+				Este fichero es entonces enlazado donde queramos aplicar los estilos definidos en él mediante el uso de la etiqueta HTML link. Por ejemplo:
+				<br>
+				<br>
+				<div class="image">
+					<img src="imagenes/lenguajes_6.png">
+				</div>
+				Ojo a la referencia de la nueva versión de la nueva versión de la API Javascript de ESRI 4.x cuyo archivo .css ya no es esri.css sino main.css
+				<br>
+				<div class="image1">
+					<img src="imagenes/lenguajes_7.png">
+				</div>
+				<br>
+				<h3>2. Hoja de estilos interna:</h3>
+				<br>
+				Todas las reglas CSS están definidas en la etiqueta head y están encerradas en una etiqueta style como se puede ver en el código de ejemplo que se muestra a continuación:
+				<div class="image">
+					<img src="imagenes/lenguajes_8.png">					
+				</div>
+				<br>
+				<h3>3. Dentro de los elementos HTML:</h3>
+				<br>
+					El último método para definir reglas CSS es dentro de los elementos HTML. Este método no está recomendado porque mezcla los estilos con la presentación y es muy difícil de mantener.
+				<br>
+				<div class="image1">
+					<img src="imagenes/lenguajes_9.png">
+				</div>
+				<div class="referencia">
+					https://www.cursosgis.com/como-integramos-los-lenguajes-html-css-y-javascript/
+				</div>
+
+			</p>				
+		</div>			
+		<footer>
+			<div class="pie">
+				Diseñado por estudiantes de Ingenieria de Sistemas de la Universidad Nacional Abierta y a Distancia UNAD
+			</div>
+		</footer>
+	</body>
+</html>
